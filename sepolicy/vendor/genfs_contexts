@@ -67,3 +67,6 @@ genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.q
 
 # Exposure dim layer
 genfscon sysfs /devices/platform/soc/soc:qcom,dsi-display-primary/dimlayer_exposure                                                         u:object_r:vendor_sysfs_graphics:s0
+
+# Fastcharge
+genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pm8150b@2:qcom,qpnp-smb5/power_supply/usb/fastcharge_mode            u:object_r:vendor_sysfs_usb_supply:s0
