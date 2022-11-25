@@ -3,6 +3,9 @@ audio.offload.buffer.size.kb=32
 audio.offload.gapless.enabled=true
 vendor.fastrpc.disable.adsprpcd_sensorspd.daemon=1
 
+# Blur
+persist.sys.sf.disable_blurs=1
+
 # Camera
 persist.camera.gyro.disable=0
 
