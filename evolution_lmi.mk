@@ -18,6 +18,11 @@ EXTRA_UDFPS_ANIMATIONS := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
 
+# Mod Pixel Launcher
+$(call inherit-product, vendor/PixelLauncher/PixelLauncher.mk)
+PIXEL_LAUNCHER_VARIANT := fullmod1
+ICONS_VARIANT := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := evolution_lmi
 PRODUCT_DEVICE := lmi
