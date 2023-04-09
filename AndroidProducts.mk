@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/kscope_lmi.mk
+    $(LOCAL_DIR)/evolution_lmi.mk
 
 COMMON_LUNCH_CHOICES := \
-    kscope_lmi-userdebug \
-    kscope_lmi-user \
-    kscope_lmi-eng
+    evolution_lmi-userdebug \
+    evolution_lmi-user \
+    evolution_lmi-eng
