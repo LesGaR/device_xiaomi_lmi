@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/yaap_lmi.mk
+    $(LOCAL_DIR)/kscope_lmi.mk
 
 COMMON_LUNCH_CHOICES := \
-    yaap_lmi-userdebug \
-    yaap_lmi-user \
-    yaap_lmi-eng
+    kscope_lmi-userdebug \
+    kscope_lmi-user \
+    kscope_lmi-eng
