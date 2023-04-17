@@ -80,10 +80,6 @@ vendor.qcom.bluetooth.soc=hastings
 camera.disable_zsl_mode=true
 vendor.camera.hal1.packagelist=com.whatsapp,com.whatsapp.w4b,com.facebook.orca,com.instagram.android
 
-# Crypto
-ro.crypto.allow_encrypt_override=true
-ro.crypto.volume.filenames_mode=aes-256-cts
-
 # Dalvik dex2oat
 dalvik.vm.dex2oat64.enabled=true
 
