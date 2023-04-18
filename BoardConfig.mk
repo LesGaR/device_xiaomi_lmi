@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+BOARD_VENDOR := xiaomi
+
 DEVICE_PATH := device/xiaomi/lmi
 
 # Architecture
@@ -145,9 +147,6 @@ TARGET_PRODUCT_PROP += $(DEVICE_PATH)/props/product.prop
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/props/system.prop
 TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/props/system_ext.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/props/vendor.prop
-
-# Power
-TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
 
 # QCOM
 BOARD_USES_QCOM_HARDWARE := true

@@ -97,6 +97,7 @@ persist.sys.sf.color_mode=9
 persist.sys.sf.color_saturation=1.0
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
+ro.hwui.render_ahead=20
 persist.sys.sf.native_mode=2
 ro.opengles.version=196610
 ro.vendor.display.sensortype=2
@@ -204,7 +205,7 @@ ro.vendor.radio.5g=3
 telephony.lteOnCdmaDevice=1
 
 # SoC
-ro.soc.manufacturer=Qualcomm
+ro.soc.manufacturer=QTI
 ro.soc.model=SM8250
 
 # SSR

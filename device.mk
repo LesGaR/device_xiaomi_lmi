@@ -28,6 +28,8 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
+    hardware/google/interfaces \
+    hardware/google/pixel \
     vendor/qcom/opensource/usb/etc
 
 # Boot animation
@@ -389,11 +391,14 @@ PRODUCT_COPY_FILES += \
 
 # Perf
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.perf@2.2.vendor
+    libqti-perfd-client
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service-qti
+    android.hardware.power-service.lmi-libperfmgr
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/power-libperfmgr/etc/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
 # QMI
 TARGET_FWK_SUPPORTS_FULL_VALUEADDS := true

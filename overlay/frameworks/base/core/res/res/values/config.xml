@@ -63,6 +63,10 @@
          in hardware. -->
     <bool name="config_setColorTransformAccelerated">true</bool>
 
+    <!-- Maximum color temperature, in Kelvin, supported by Night display.
+         Setting this to track config_displayWhiteBalanceColorTemperatureDefault (currently 6500K). -->
+    <integer name="config_nightDisplayColorTemperatureMax">6500</integer>
+
     <!-- Whether the always on display mode is available. -->
     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
 
@@ -731,6 +735,9 @@
 
     <!-- Path to fast charging status file to detect whether an oem fast charger is active -->
     <string name="config_oemFastChargerStatusPath" translatable="false">/sys/class/power_supply/bms/fastcharge_mode</string>
+
+     <!-- Smart charging -->
+    <bool name="config_smartChargingAvailable">true</bool>
 
         <!-- Smart charge sysfs node and value for suspend/resume charging-->
     <bool name="config_smartChargingAvailable">true</bool>
